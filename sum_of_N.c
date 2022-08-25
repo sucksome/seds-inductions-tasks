@@ -8,5 +8,5 @@ int main(){
     for(int i=0;i<n+1;i++){
         sum=increase_by_x(sum,i);
     }
-    printf("Sum of first %d natural numbers is: %d\n",n,sum);
+    printf("Sum of first %d elements of the series is: %d\n",n,sum);
 }
